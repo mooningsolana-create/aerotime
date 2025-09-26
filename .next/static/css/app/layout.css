@@ -860,6 +860,15 @@ video {
 .top-full {
   top: 100%;
 }
+.bottom-\[1\.4rem\] {
+  bottom: 1.4rem;
+}
+.left-\[1\.4rem\] {
+  left: 1.4rem;
+}
+.right-\[1\.4rem\] {
+  right: 1.4rem;
+}
 .z-10 {
   z-index: 10;
 }
@@ -969,6 +978,9 @@ video {
 }
 .mt-6 {
   margin-top: 1.5rem;
+}
+.mt-\[1\.4rem\] {
+  margin-top: 1.4rem;
 }
 .block {
   display: block;
@@ -1087,6 +1099,18 @@ video {
 .h-px {
   height: 1px;
 }
+.h-\[1\.4rem\] {
+  height: 1.4rem;
+}
+.h-\[2\.1rem\] {
+  height: 2.1rem;
+}
+.h-\[2\.8rem\] {
+  height: 2.8rem;
+}
+.h-\[5\.6rem\] {
+  height: 5.6rem;
+}
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1201,6 +1225,12 @@ video {
 }
 .w-auto {
   width: auto;
+}
+.w-\[1\.4rem\] {
+  width: 1.4rem;
+}
+.w-\[2\.1rem\] {
+  width: 2.1rem;
 }
 .min-w-0 {
   min-width: 0px;
@@ -1385,6 +1415,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-\[2\.8rem\] {
+  gap: 2.8rem;
+}
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
@@ -1434,6 +1467,11 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+.space-y-\[1\.4rem\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.4rem * var(--tw-space-y-reverse));
 }
 .overflow-auto {
   overflow: auto;
@@ -1842,6 +1880,9 @@ video {
 .p-\[1px\] {
   padding: 1px;
 }
+.p-\[0\.7rem\] {
+  padding: 0.7rem;
+}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1913,6 +1954,22 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.px-\[2\.1rem\] {
+  padding-left: 2.1rem;
+  padding-right: 2.1rem;
+}
+.py-\[0\.7rem\] {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+.py-\[1\.05rem\] {
+  padding-top: 1.05rem;
+  padding-bottom: 1.05rem;
+}
+.py-\[1\.4rem\] {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -2023,6 +2080,9 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-\[1\.225rem\] {
+  font-size: 1.225rem;
 }
 .font-black {
   font-weight: 900;
@@ -3592,6 +3652,14 @@ video {
 
   .lg\:h-10 {
     height: 2.5rem;
+  }
+
+  .lg\:h-\[3\.5rem\] {
+    height: 3.5rem;
+  }
+
+  .lg\:h-\[7rem\] {
+    height: 7rem;
   }
 
   .lg\:w-auto {
