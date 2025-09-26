@@ -1199,6 +1199,9 @@ video {
 .w-px {
   width: 1px;
 }
+.w-auto {
+  width: auto;
+}
 .min-w-0 {
   min-width: 0px;
 }
@@ -3585,6 +3588,10 @@ video {
 
   .lg\:h-20 {
     height: 5rem;
+  }
+
+  .lg\:h-10 {
+    height: 2.5rem;
   }
 
   .lg\:w-auto {
