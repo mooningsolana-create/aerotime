@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
-import { TrendingUp, DollarSign, Calendar, BarChart3 } from 'lucide-react'
+import { TrendingUp, DollarSign, Calendar, ChartBar as BarChart3 } from 'lucide-react'
 
 const Counter = ({ end, prefix = "", suffix = "" }: { end: number; prefix?: string; suffix?: string }) => {
   return <span>{prefix}{end.toLocaleString('pt-BR')}{suffix}</span>
