@@ -11,7 +11,7 @@ const steps = [
   { icon: UserCheck, title: "Análise de Perfil & Reunião Estratégica", number: 2 },
   { icon: Handshake, title: "Apresentação Financeira e Contratual",    number: 3 },
   { icon: Settings,  title: "Treinamento & Implantação",               number: 4 },
-  { icon: Flag,      title: "Inauguração com suporte total",           number: 5 }
+  { icon: Flag,      title: "Inauguração com suporte 360°",           number: 5 }
 ]
 
 export function ProcessSection() {
