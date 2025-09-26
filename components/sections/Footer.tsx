@@ -7,45 +7,93 @@ export function Footer() {
     <footer className="bg-[#0B1A2A] text-white py-16">
       <div className="container mx-auto px-6 max-w-[1280px]">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
-          {/* Seals & Certifications */}
-          <motion.div 
+          {/* Homologação ANAC (apenas logo) */}
+          <motion.div
             className="space-y-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
             <h3 className="font-bold text-lg mb-4">Homologação</h3>
-            <div className="space-y-3">
-              <div className="bg-white/10 rounded-lg p-3 text-center">
-                <p className="text-sm">A AeroTime é um Centro de Instrução de Aviação Civil (CIAC) homologada pela ANAC</p>
+            <a
+              href="https://www.gov.br/anac/pt-br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block rounded-xl bg-white/5 ring-1 ring-white/10 hover:ring-white/20 transition p-4"
+              aria-label="Ver site da ANAC"
+              title="ANAC — Agência Nacional de Aviação Civil"
+            >
+              <div className="aspect-[3/1] w-full grid place-items-center">
+                <img
+                  src="/anac.png"
+                  alt="Logo ANAC"
+                  className="max-h-10 md:max-h-12 w-auto opacity-90 group-hover:opacity-100 transition"
+                />
               </div>
-              <div className="bg-white/10 rounded-lg p-3 text-center">
-                <p className="text-sm">Parcerias: PlaneIt, SAGA, AirBP</p>
+            </a>
+
+            {/* Parcerias (AirBP) */}
+            <div className="space-y-3">
+              <h4 className="font-semibold text-sm uppercase tracking-wide text-white/70">
+                Parcerias
+              </h4>
+              <div className="rounded-xl bg-white/5 ring-1 ring-white/10 p-4">
+                <div className="aspect-[3/1] w-full grid place-items-center">
+                  <img
+                    src="/airbp.svg"
+                    alt="Parceiro AirBP"
+                    className="max-h-10 md:max-h-12 w-auto opacity-90"
+                  />
+                </div>
               </div>
             </div>
           </motion.div>
 
-          {/* Company Info */}
-          <motion.div 
+          {/* Dados da franqueadora */}
+          <motion.div
             className="space-y-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <h3 className="font-bold text-lg mb-4">CNPJ / Sede / Mídias</h3>
-            <div className="space-y-2 text-sm text-white/80">
-              <p>CNPJ: 00.000.000/0001-00</p>
-              <p>São Paulo - SP</p>
-              <div className="flex space-x-4 mt-4">
-                <a href="#" className="hover:text-[#00B37E] transition-colors">LinkedIn</a>
-                <a href="#" className="hover:text-[#00B37E] transition-colors">Instagram</a>
+            <h3 className="font-bold text-lg mb-4">Dados da franqueadora</h3>
+
+            <div className="rounded-xl bg-white/5 ring-1 ring-white/10 p-5 space-y-4">
+              <div className="grid grid-cols-1 gap-3 text-sm">
+                <div className="flex items-center justify-between gap-4">
+                  <span className="text-white/60">CNPJ</span>
+                  <span className="font-medium tabular-nums bg-white/10 px-2 py-1 rounded-md">
+                    00.000.000/0001-00
+                  </span>
+                </div>
+                <div className="flex items-center justify-between gap-4">
+                  <span className="text-white/60">Sede</span>
+                  <span className="font-medium">São Paulo — SP</span>
+                </div>
+              </div>
+
+              <div className="h-px bg-gradient-to-r from-transparent via-white/15 to-transparent" />
+
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="#"
+                  className="px-3 py-2 rounded-lg text-sm font-medium bg-white/10 hover:bg-white/15 transition"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="#"
+                  className="px-3 py-2 rounded-lg text-sm font-medium bg-white/10 hover:bg-white/15 transition"
+                >
+                  Instagram
+                </a>
               </div>
             </div>
           </motion.div>
 
-          {/* Quick Links */}
-          <motion.div 
+          {/* Links rápidos */}
+          <motion.div
             className="space-y-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -54,23 +102,35 @@ export function Footer() {
           >
             <h3 className="font-bold text-lg mb-4">Links rápidos</h3>
             <div className="space-y-2">
-              <a href="#" className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors">
-                Sobre a AeroTime
+              <a
+                href="#sobre"
+                className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors"
+              >
+                Sobre
               </a>
-              <a href="#" className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors">
+              <a
+                href="#cursos"
+                className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors"
+              >
                 Nossos Cursos
               </a>
-              <a href="#" className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors">
+              <a
+                href="#como-funciona"
+                className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors"
+              >
                 Como Funciona
               </a>
-              <a href="#projecoes" className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors">
+              <a
+                href="#projecoes"
+                className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors"
+              >
                 Projeções Financeiras
               </a>
             </div>
           </motion.div>
 
-          {/* Legal */}
-          <motion.div 
+          {/* Termos e política */}
+          <motion.div
             className="space-y-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -96,7 +156,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <motion.div 
+        <motion.div
           className="border-t border-white/10 pt-8 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -104,7 +164,7 @@ export function Footer() {
           transition={{ delay: 0.4 }}
         >
           <p className="text-sm text-white/60">
-            © 2024 AeroTime. Todos os direitos reservados.
+            © 2025. Todos os direitos reservados.
           </p>
         </motion.div>
       </div>
