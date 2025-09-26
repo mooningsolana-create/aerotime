@@ -126,7 +126,7 @@ export function ProcessSection() {
             Abrir sua escola é possível.
           </h2>
           <p className="text-lg text-[#0B1A2A]/70 font-medium">
-            E o céu? É só o começo.
+            E o céu? É só o começo. Entenda nossas etapas:
           </p>
         </motion.div>
 
