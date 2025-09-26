@@ -1012,6 +1012,9 @@ video {
 .aspect-video {
   aspect-ratio: 16 / 9;
 }
+.aspect-\[3\/1\] {
+  aspect-ratio: 3/1;
+}
 .h-0 {
   height: 0px;
 }
@@ -1119,6 +1122,9 @@ video {
 }
 .max-h-screen {
   max-height: 100vh;
+}
+.max-h-10 {
+  max-height: 2.5rem;
 }
 .min-h-\[80px\] {
   min-height: 80px;
@@ -1372,6 +1378,9 @@ video {
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.place-items-center {
+  place-items: center;
 }
 .items-start {
   align-items: flex-start;
@@ -1883,6 +1892,9 @@ video {
 .p-\[0\.7rem\] {
   padding: 0.7rem;
 }
+.p-5 {
+  padding: 1.25rem;
+}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2229,6 +2241,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
+.text-white\/70 {
+  color: rgb(255 255 255 / 0.7);
+}
 .underline-offset-4 {
   text-underline-offset: 4px;
 }
@@ -2325,8 +2340,16 @@ video {
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
+.ring-1 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
 .ring-ring {
   --tw-ring-color: hsl(var(--ring));
+}
+.ring-white\/10 {
+  --tw-ring-color: rgb(255 255 255 / 0.1);
 }
 .ring-offset-background {
   --tw-ring-offset-color: hsl(var(--background));
@@ -2699,6 +2722,10 @@ video {
 .hover\:shadow-\[\#00B37E\]\/20:hover {
   --tw-shadow-color: rgb(0 179 126 / 0.2);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:ring-white\/20:hover {
+  --tw-ring-color: rgb(255 255 255 / 0.2);
 }
 
 .focus\:bg-accent:focus {
@@ -3571,6 +3598,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:max-h-12 {
+    max-height: 3rem;
   }
 
   .md\:w-\[var\(--radix-navigation-menu-viewport-width\)\] {
