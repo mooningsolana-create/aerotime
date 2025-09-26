@@ -94,7 +94,7 @@ export function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
               >
-                {['A AeroTime é um Centro de Instrução de Aviação Civil (CIAC) homologada pela ANAC', 'Suporte integral', 'Território exclusivo'].map((item, index) => (
+                {['Centro de Instrução de Aviação Civil homologada pela ANAC', 'Suporte integral', 'Território exclusivo'].map((item, index) => (
                   <div key={index} className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-[#00B37E] rounded-full" />
                     <span className="font-semibold">{item}</span>
