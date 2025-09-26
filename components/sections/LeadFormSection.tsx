@@ -133,13 +133,7 @@ export function LeadFormSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <div className="flex flex-wrap justify-center items-center gap-8 text-[#E2F6EE] text-sm font-medium">
-            <span>A AeroTime é CIAC homologada pela ANAC</span>
-            <span className="hidden sm:inline">•</span>
-            <span>+97% satisfação</span>
-            <span className="hidden sm:inline">•</span>
-            <span>Suporte 360º</span>
-          </div>
+        
         </motion.div>
 
         <div className="max-w-2xl mx-auto">
