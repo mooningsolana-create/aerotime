@@ -14,8 +14,8 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: 'Aerotime - Franquia Escola de Aviação | Abra sua unidade',
-  description: 'Torne-se franqueado da Aerotime e lidere a formação aeronáutica no Brasil. Investimento a partir de R$ 122mil, retorno de 12-18 meses.',
+  title: 'AeroTime - Franquia Escola de Aviação | Abra sua unidade',
+  description: 'Torne-se franqueado da AeroTime e lidere a formação aeronáutica no Brasil. Investimento a partir de R$ 122mil, retorno de 12-18 meses.',
   keywords: 'franquia aviação, escola de aviação, piloto, comissário de voo, franquia educacional',
 }
 

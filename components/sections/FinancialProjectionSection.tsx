@@ -157,6 +157,12 @@ export function FinancialProjectionSection() {
                     R$ 16.000
                   </motion.div>
                 </motion.div>
+                
+                <div className="mt-4">
+                  <p className="text-sm font-semibold text-[#00B37E]">
+                    ROI médio anual: 25%
+                  </p>
+                </div>
               </motion.div>
             </div>
           </div>

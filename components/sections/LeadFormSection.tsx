@@ -109,6 +109,12 @@ export function LeadFormSection() {
                     Baixar apresentação (PDF)
                   </Button>
                 </div>
+                
+                <div className="mt-6 text-center">
+                  <p className="text-[#0B1A2A]/70 font-medium">
+                    Abrir sua escola é possível. E o céu? É só o começo.
+                  </p>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -128,7 +134,7 @@ export function LeadFormSection() {
           viewport={{ once: true }}
         >
           <div className="flex flex-wrap justify-center items-center gap-8 text-[#E2F6EE] text-sm font-medium">
-            <span>Formação Certificada</span>
+            <span>A AeroTime é CIAC homologada pela ANAC</span>
             <span className="hidden sm:inline">•</span>
             <span>+97% satisfação</span>
             <span className="hidden sm:inline">•</span>
@@ -330,7 +336,7 @@ export function LeadFormSection() {
                     onClick={currentStep === totalSteps ? handleSubmit(onSubmit) : nextStep}
                     className="bg-[#00B37E] hover:bg-[#00E0A4] text-white px-8 py-3 rounded-[20px]"
                   >
-                    {currentStep === totalSteps ? 'Quero abrir minha franquia' : 'Continuar'}
+                    {currentStep === totalSteps ? 'Quero ser uma escola franqueada AeroTime' : 'Continuar'}
                   </Button>
                 </div>
               </form>

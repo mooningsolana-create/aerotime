@@ -123,8 +123,11 @@ export function ProcessSection() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#00294C] mb-4">
-            Abrir sua unidade é simples. O céu é o limite.
+            Abrir sua escola é possível.
           </h2>
+          <p className="text-lg text-[#0B1A2A]/70 font-medium">
+            E o céu? É só o começo.
+          </p>
         </motion.div>
 
         <div className="max-w-4xl mx-auto">

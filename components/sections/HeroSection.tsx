@@ -49,7 +49,7 @@ export function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Você nasceu para voar alto. Agora é hora de ser dono da escola que forma quem decola.
+                Você nasceu pra voar. Agora pode liderar quem vai decolar.
               </motion.h1>
 
               {/* Subhead */}
@@ -59,7 +59,7 @@ export function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                Torne-se franqueado da Aerotime, a escola que forma quem voa. Uma franquia de alto impacto, voltada para apaixonados por aviação com visão empreendedora.
+                Torne-se franqueado AeroTime, a escola que forma quem voa. Um modelo de alto impacto para apaixonados por aviação com visão empreendedora.
               </motion.p>
 
               {/* CTAs */}
@@ -94,7 +94,7 @@ export function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
               >
-                {['Certificada pela ANAC', 'Suporte integral', 'Território exclusivo'].map((item, index) => (
+                {['A AeroTime é um Centro de Instrução de Aviação Civil (CIAC) homologada pela ANAC', 'Suporte integral', 'Território exclusivo'].map((item, index) => (
                   <div key={index} className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-[#00B37E] rounded-full" />
                     <span className="font-semibold">{item}</span>
@@ -112,10 +112,10 @@ export function HeroSection() {
                 transition={{ duration: 0.8, delay: 0.5 }}
               >
                 {[
-                  { icon: Users, number: '500+', label: 'Pilotos Formados' },
+                  { icon: Users, number: '1000+', label: 'Pilotos e Comissários Formados' },
                   { icon: TrendingUp, number: '25%', label: 'ROI Médio Anual' },
                   { icon: Award, number: '95%', label: 'Taxa de Aprovação' },
-                  { icon: Clock, number: '15', label: 'Anos no Mercado' },
+                  { icon: Clock, number: '15', label: 'Anos de Experiência' },
                 ].map((stat, index) => (
                   <motion.div
                     key={index}

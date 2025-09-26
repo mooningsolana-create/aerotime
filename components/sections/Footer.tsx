@@ -14,13 +14,13 @@ export function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h3 className="font-bold text-lg mb-4">Certificações</h3>
+            <h3 className="font-bold text-lg mb-4">Homologação</h3>
             <div className="space-y-3">
               <div className="bg-white/10 rounded-lg p-3 text-center">
-                <p className="text-sm">Logo ANAC</p>
+                <p className="text-sm">A AeroTime é um Centro de Instrução de Aviação Civil (CIAC) homologada pela ANAC</p>
               </div>
               <div className="bg-white/10 rounded-lg p-3 text-center">
-                <p className="text-sm">Parcerias (companhias aéreas, aeroportos)</p>
+                <p className="text-sm">Parcerias: PlaneIt, SAGA, AirBP</p>
               </div>
             </div>
           </motion.div>
@@ -55,7 +55,7 @@ export function Footer() {
             <h3 className="font-bold text-lg mb-4">Links rápidos</h3>
             <div className="space-y-2">
               <a href="#" className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors">
-                Sobre a Aerotime
+                Sobre a AeroTime
               </a>
               <a href="#" className="block text-sm text-white/80 hover:text-[#00B37E] transition-colors">
                 Nossos Cursos
@@ -104,7 +104,7 @@ export function Footer() {
           transition={{ delay: 0.4 }}
         >
           <p className="text-sm text-white/60">
-            © 2024 Aerotime. Todos os direitos reservados.
+            © 2024 AeroTime. Todos os direitos reservados.
           </p>
         </motion.div>
       </div>

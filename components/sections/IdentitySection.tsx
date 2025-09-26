@@ -18,18 +18,15 @@ export function IdentitySection() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-4xl md:text-5xl font-black leading-tight">
-              Você respira aviação. Chegou a hora de viver disso.
+              Você nasceu pra voar.
             </h2>
             
             <div className="space-y-6 text-lg text-white/90">
               <p>
-                Se você já trabalhou no setor, sonhou em voar ou simplesmente não tira os olhos do céu, essa franquia é para você.
+                Já trabalhou no setor, sonhou em voar ou simplesmente não tira os olhos do céu? Agora pode liderar a formação de quem vai decolar.
               </p>
               <p>
-                A Aerotime foi criada por profissionais apaixonados, para profissionais que querem mais do que um negócio: querem protagonismo.
-              </p>
-              <p className="font-semibold text-[#E2F6EE]">
-                Agora, você pode liderar a formação dos próximos nomes da aviação brasileira.
+                A AeroTime foi criada por profissionais apaixonados, para quem quer protagonismo na aviação.
               </p>
             </div>
           </motion.div>

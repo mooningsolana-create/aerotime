@@ -83,10 +83,10 @@ export function PositioningSection() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8 lg:gap-16 mb-8">
             <div className="text-center">
               <div className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#00B37E] mb-2">
-                #1
+                REF
               </div>
               <div className="text-sm sm:text-base text-[#00E0A4] font-semibold tracking-wide">
-                EM AVIAÇÃO
+                EM FORMAÇÃO
               </div>
             </div>
             
@@ -94,10 +94,10 @@ export function PositioningSection() {
             
             <div className="text-center">
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-2">
-                <Counter end={500} suffix="+" />
+                <Counter end={1000} suffix="+" />
               </div>
               <div className="text-sm sm:text-base text-slate-300 font-semibold">
-                PILOTOS FORMADOS
+                FORMADOS
               </div>
             </div>
             
@@ -124,22 +124,15 @@ export function PositioningSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 lg:mb-8 max-w-6xl mx-auto leading-tight">
-            Não somos mais uma franquia. Somos o{' '}
-            <span className="text-[#00B37E] relative">
-              futuro
-            </span>{' '}
-            da formação aeronáutica.
+            Não somos 'mais uma rede'. Somos a referência em formação aeronáutica aplicada.
           </h1>
           
           <div className="max-w-4xl mx-auto text-base sm:text-lg text-slate-300 space-y-4 font-normal leading-relaxed">
             <p>
-              Enquanto outras redes disputam espaço no ensino tradicional, a Aerotime forma quem faz o mundo se mover por cima das nuvens.
+              Enquanto outros insistem no ensino tradicional, a AeroTime forma quem faz o mundo se mover por cima das nuvens.
             </p>
             <p>
-              Aqui, cada aluno é treinado para embarcar no setor mais aspiracional do Brasil: a aviação.
-            </p>
-            <p className="font-semibold text-[#00E0A4] text-lg sm:text-xl">
-              E agora, isso pode ser seu negócio.
+              Agora, isso pode ser seu negócio.
             </p>
           </div>
 
@@ -157,6 +150,17 @@ export function PositioningSection() {
               ))}
             </div>
             <span className="text-slate-200 font-medium">97% de satisfação dos alunos</span>
+          </motion.div>
+          
+          {/* Linha de reforço */}
+          <motion.div
+            className="text-center mt-8"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+          >
+            <p className="text-[#00E0A4] font-semibold text-lg">O céu é só o começo.</p>
           </motion.div>
         </motion.div>
 
@@ -222,10 +226,10 @@ export function PositioningSection() {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="flex-1 text-center lg:text-left">
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
-                Seja um dos primeiros franqueados da sua região
+                Seja a escola franqueada da sua região
               </h2>
               <p className="text-slate-300 font-normal text-lg leading-relaxed">
-                Garanta território exclusivo e suporte completo para decolar seu negócio na aviação
+                Garanta exclusividade territorial e suporte completo para decolar seu negócio
               </p>
             </div>
             
@@ -235,7 +239,7 @@ export function PositioningSection() {
                 onClick={() => document.getElementById('formulario')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 <Trophy className="mr-2 h-5 w-5" />
-                Quero ser franqueado
+                Quero ser uma escola franqueada AeroTime
               </Button>
               
               <Button 

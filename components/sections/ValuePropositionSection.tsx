@@ -5,10 +5,10 @@ import { CircleDollarSign, MapPin, ShieldCheck, TrendingUp, BadgeCheck } from 'l
 import { Card, CardContent } from '@/components/ui/card'
 
 const benefits = [
-  { icon: CircleDollarSign, title: "Royalties baixos", description: "Lucre mais. Aqui, o faturamento é seu, não nosso." },
-  { icon: MapPin, title: "Território exclusivo", description: "Atue sem concorrência de rede na sua região." },
-  { icon: ShieldCheck, title: "Suporte 360 graus", description: "Implantação, operação, marketing e gestão, tudo com você." },
-  { icon: TrendingUp, title: "Alta demanda nacional", description: "Aviação cresce +9% ao ano no Brasil. Faltam profissionais." },
+  { icon: CircleDollarSign, title: "Royalties baixos", description: "Mais lucro na unidade, com suporte ativo da rede." },
+  { icon: MapPin, title: "Território exclusivo", description: "Atuação sem concorrência de rede." },
+  { icon: ShieldCheck, title: "Suporte 360°", description: "Implantação, operação, marketing e gestão." },
+  { icon: TrendingUp, title: "Alta demanda nacional", description: "A aviação cresce e faltam profissionais." },
   { icon: BadgeCheck, title: "Marca reconhecida", description: "Credibilidade validada por quem realmente voa." }
 ]
 
@@ -24,7 +24,7 @@ export function ValuePropositionSection() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-black text-[#00294C] mb-4">
-            Seu negócio. Nosso know-how. Resultados reais.
+            Por que a AeroTime
           </h2>
         </motion.div>
 

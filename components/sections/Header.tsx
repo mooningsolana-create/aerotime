@@ -62,7 +62,7 @@ export function Header() {
                 <span className={`text-xl font-bold ${
                   isScrolled ? 'text-[#00294C]' : 'text-white'
                 }`}>
-                  Aerotime
+                  AeroTime
                 </span>
               </div>
             </div>
