@@ -26,9 +26,9 @@ export function Header() {
   const handleCtaClick = () => {
     // Track CTA click event for analytics
     if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'cta_click', {
+      ;(window as any).gtag('event', 'cta_click', {
         event_category: 'engagement',
-        event_label: 'header_cta'
+        event_label: 'header_cta',
       })
     }
     handleScrollTo('formulario')
@@ -54,18 +54,15 @@ export function Header() {
         <div className="max-w-[1280px] mx-auto px-6">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <div className="flex items-center">
-              <div className="flex items-center gap-2">
-                <div className="w-10 h-10 bg-gradient-to-r from-[#00B37E] to-[#00E0A4] rounded-lg flex items-center justify-center">
-                  <Plane className="h-6 w-6 text-[#00294C]" />
-                </div>
-                <span className={`text-xl font-bold ${
-                  isScrolled ? 'text-[#00294C]' : 'text-white'
-                }`}>
-                  AeroTime
-                </span>
-              </div>
-            </div>
+            <a href="/" aria-label="Início" className="flex items-center">
+              <img
+                src="/logo.svg"
+                alt="Logo"
+                className="h-8 w-auto lg:h-10"
+                loading="eager"
+                decoding="async"
+              />
+            </a>
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
@@ -100,7 +97,7 @@ export function Header() {
               className={`lg:hidden p-2 rounded-md transition-colors ${
                 isScrolled ? 'text-[#00294C] hover:bg-gray-100' : 'text-white hover:bg-white/10'
               }`}
-              aria-label="Toggle mobile menu"
+              aria-label="Abrir/fechar menu móvel"
             >
               {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
